@@ -10,7 +10,7 @@ body {
 
 .img {
   display: flex;
-  width: 50%;
+  width: 40%;
   height: 96%;
   margin: 1% 1% 1% 1%;
   background: url(./images/halie-west-25xggax4bSA-unsplash.jpg) no-repeat
@@ -37,3 +37,6 @@ a {
   text-decoration: inherit;
 }
 
+.form {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
