@@ -11,7 +11,7 @@ body {
 .img {
   display: flex;
   width: 40%;
-  height: 96%;
+  height: 94%;
   margin: 1% 1% 1% 1%;
   background: url(./images/halie-west-25xggax4bSA-unsplash.jpg) no-repeat
   center;
@@ -30,6 +30,8 @@ body {
   font-weight: 900;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
       1px 1px 0 #000;
+  background-color: rgba(0, 0, 0, 0.472);
+  padding: 5px;
   }
 
 a {
@@ -61,6 +63,7 @@ a {
   font-size: 20px;
   display: block;
   transition: all 0.5s;
+  margin-top: 1px;
 }
 
 .form-input {
@@ -109,4 +112,54 @@ form {
   font-size: 2.3rem;
   padding-top: 2%;
   padding-bottom: 2.5%;
+}
+
+.form-end {
+  margin-top: 20px;
+  position: absolute;
+  font-size: 18px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 30px;
+  background: #075f07;
+  color: #fff9ff;
+  user-select: none;
+  cursor: pointer;
+}
+
+.final-text {
+  margin-top: 3%;
+}
+
+.login {
+  color: #009900;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.errorMessage {
+  font-size: 25px;
+  font-weight: 900;
+  color: red;
+}
+
+.img-logo {
+  width: 10%;
+  height: fit-content;
+  position: fixed;
+  margin-left: 28%;
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
+.odin-img {
+  width: 100%;
 }

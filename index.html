@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sign up!</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <div class="img">
+    <div class="img-logo">
+      <img src="./images/odin-lined.png" alt="Odin Logo" class="odin-img" />
+    </div>
     <div class="img-description">
       <p class="img-info">Photo by Blake Verdoorn</p>
       <a href="https://unsplash.com/es/fotos/25xggax4bSA">
@@ -31,81 +35,72 @@
         You know you want to.
       </h1>
     </div>
-    <form class="form-element" action="">
+    <form action="">
       <h1 class="start-point">Let's do this!</h1>
       <div class="inputs">
-
         <div class="first-name">
-          <label for="first-name" class="form-label">First name:</label>
           <input 
             required
             type="text" 
             class="form-input" 
             id="first-name" 
             placeholder="First Name">
+          <label for="first-name" class="form-label">First name:</label>
         </div>
-
         <div class="last-name">
-          <label for="last-name" class="form-label">Last name:</label>
           <input
             required 
             type="text" 
             class="form-input" 
             id="last-name" 
             placeholder="Last Name">
+          <label for="last-name" class="form-label">Last name:</label>
         </div>
-
       </div>
       <div class="inputs">
-      
         <div class="email">
-          <label for="email" class="form-label">Email:</label>
           <input 
             required
             type="email" 
             class="form-input" 
             id="email" 
             placeholder="Email">
+          <label for="email" class="form-label">Email:</label>
         </div>
-      
         <div class="phone">
-          <label for="phone" class="form-label">Phone:</label>
           <input 
             required
             type="text" 
             class="form-input" 
             id="phone" 
             placeholder="Phone">
+          <label for="phone" class="form-label">Phone:</label>
         </div>
-        
       </div>
-
       <div class="inputs">
-      
         <div class="password">
-          <label for="password" class="form-label">Password:</label>
           <input 
             required
             type="text" 
             class="form-input" 
             id="password" 
             placeholder="Password">
+          <label for="password" class="form-label">Password:</label>
         </div>
-      
         <div class="confirm-password">
-          <label for="confirm-password" class="form-label">Confirm password:</label>
           <input 
             required
             type="text" 
             class="form-input" 
             id="confirm-password" 
             placeholder="Confirm">
+          <label for="confirm-password" class="form-label">Confirm password:</label>
         </div>
       </div>
       <div class="form-end">
         <div class="errorMessage"></div>
         <button class="btn" type="submit">Create Account</button>
-        <h1>Already have an account? <a href="" class="login">Log in</a></h1>
+        <h1 class="final-text">Already have an account? <a href="" class="login">Log in</a></h1>
       </div>
     </form>
     
